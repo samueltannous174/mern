@@ -124,9 +124,6 @@ console.log(genre);
 
 
 
-
-
-
 var genre;
 function rewind() {
   var genre;           
@@ -162,12 +159,6 @@ function learn() {
   console.log(dojo);
 }
 console.log(dojo);
-
-
-
-
-
-
 
 
 dojo = "san jose";
