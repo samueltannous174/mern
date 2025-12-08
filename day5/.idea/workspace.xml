@@ -5,22 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d78fd8d-d967-42b5-842a-7a642dd64eb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/src/Components/AddColor.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/src/Components/Color.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/src/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/vite.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day3/vite-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/vite-project/package-lock.json" afterDir="false" />
@@ -35,21 +19,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "samueltannous174"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;samueltannous174&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/samueltannous174/mern.git",
-    "accountId": "46194d97-70ca-4839-bedc-da0a2e934c0e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/samueltannous174/mern.git&quot;,
+    &quot;accountId&quot;: &quot;46194d97-70ca-4839-bedc-da0a2e934c0e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="36YbV1zkDjdPPJAm4ipEgPM1AF8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,22 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.App.jsx.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.App.jsx.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -98,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765186471513</updated>
       <workItem from="1765186472581" duration="8530000" />
+      <workItem from="1765205747859" duration="431000" />
     </task>
     <servers />
   </component>
