@@ -15,6 +15,7 @@ module.exports.createProduct = async (req, res) => {
 
     const savedProduct = await newProduct.save();
     res.status(201).json(savedProduct);
+    
 
   } catch (error) {
     console.error(error);
