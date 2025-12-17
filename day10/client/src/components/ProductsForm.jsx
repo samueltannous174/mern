@@ -1,14 +1,14 @@
 
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
 
 
 
 const ProductsForm = (props) => {
+
     const [title, setTitle] = useState("")
     const [price, setPrice] = useState(0)
     const [description, setDescription] = useState("")
-
+    
 
     const handleNameChange = (e) => {
         setTitle(e.target.value)
@@ -17,6 +17,8 @@ const ProductsForm = (props) => {
     const handlePriceChange = (e) => {
         setPrice(e.target.value)
     }
+
+    
 
     const handleDescriptionChange = (e) => {
         setDescription(e.target.value)
@@ -40,8 +42,9 @@ const ProductsForm = (props) => {
             body: JSON.stringify(productData)
         }).then( res => res.json() )
         .then( data => console.log(data) )
-    
+        .catch( err => console.error(err) )
     }
+
     return (
         <form  className="flex flex-col w-full gap-4">
             <label className="block">
