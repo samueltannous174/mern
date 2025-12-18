@@ -10,7 +10,6 @@ app.use(express.json());
 
 connectDB();
 
-
 const router = require("./routes/route.js");
 router(app);
 

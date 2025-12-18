@@ -5,9 +5,10 @@ const Author = require("../models/Author");
 
 module.exports.createAuthor = async (req, res) => {
   try {
-    const { name } = req.body;
+    const { name, age } = req.body;
+    
 
-    const newAuthor = new Author({ name });
+    const newAuthor = new Author({ name, age });
     const savedAuthor = await newAuthor.save();
 
     res.status(201).json(savedAuthor);
@@ -40,10 +41,10 @@ module.exports.getAllAuthors = async (req, res) => {
 module.exports.updateAuthor = async (req, res) => {
   try {
     const { id } = req.params;
-    const { name } = req.body;
+    const { name, age } = req.body;
     const updatedAuthor = await Author.findByIdAndUpdate(
       id,
-      { name },
+      { name, age },
       { new: true, runValidators: true }
     );
 
