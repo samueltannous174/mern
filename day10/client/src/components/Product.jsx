@@ -1,11 +1,11 @@
 
-import React, { useEffect, useState} from 'react'
+import React, {  useEffect, useState} from 'react'
 import { useParams } from "react-router-dom"
 
 const Product = () => {
     const [product, setProduct] = useState(null);
     const { id } = useParams(); 
-  useEffect(() => {
+useEffectt(() => {
             const fetchProducts = async () => {
                 const response = await fetch("http://localhost:3000/find/" + id);
                 const data = await response.json();
