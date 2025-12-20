@@ -28,6 +28,7 @@ function App() {
           <Route path="/all" element={<AllPlayers />} />
           <Route path="/game" element={<Games />} />
         </Route>
+        <Route path="*" element={<Navigate to="/" />} />
       
       </Routes> 
     </BrowserRouter>  
