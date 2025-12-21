@@ -1,39 +1,16 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from "react-router-dom";
-import axios from 'axios';
-import { useAuth } from "../context/AuthContext";
-
+import React from 'react';
+import { Link } from "react-router-dom";
+import useLogin from '../hooks/useLogin';
 
 const Login = () => {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [errors, setErrors] = useState({});
-    const navigate = useNavigate();
-    const {login} = useAuth();
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-            const response = await axios.post('http://localhost:8000/user/login', {
-                email,
-                password
-            });
-            console.log('Login successful:', response.data);
-            login(response.data.user);
-            navigate('/game');
-            setEmail('');
-            setPassword('');
-            setErrors({}); 
-        } catch (error) {
-            if (error.response?.status === 400) {
-                setErrors(error.response.data.errors);
-                console.error('Backend validation errors:', error.response.data.errors);
-            } else {
-                setErrors({ general: 'An unexpected error occurred. Please try again.' });
-                console.error('Login error:', error);
-            }
-        }
-    };
+    const {
+        email,
+        setEmail,
+        password,
+        setPassword,
+        errors,
+        handleSubmit,
+    } = useLogin();
 
     return (
         <div className="container mx-auto p-4">
